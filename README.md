@@ -23,6 +23,17 @@ Download the latest version
 degit u-barnwal/ComingSoonPage-html
 ````
 
+## How to Reuse on [CodeSandbox](https://codesandbox.io)?
+> CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster.
+
+- Go to [codesandbox.io](https://codesandbox.io)
+- Click on **Start coding for free**
+  - If logged in, click on **New Sandbox**
+- Click on **Import Project**
+- Enter https://github.com/u-barnwal/starter-nextjs-tailwind-ts as **GitHub Repository URL**
+- Click on **Import and Fork**
+- ✅
+
 ## Getting Started
 
 Install dependencies
