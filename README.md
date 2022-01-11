@@ -1,31 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS with Tailwind in TypeScript
+A starter template for NextJS with Tailwind in TypeScript
+
+- Learn [NextJS](https://nextjs.org)
+- Learn [Tailwind](https://tailwindcss.com)
+- Learn [TypeScript](https://typescriptlang.org)
+
+## How to Reuse Locally?
+
+Use `degit` to download the repository locally.
+
+> ### ❓ What is [degit](https://github.com/Rich-Harris/degit)?
+> degit downloads a copy of git repository with downloading its entire git history.
+
+Install degit globally.
+
+````bash
+npm install -g degit
+````
+
+Download the latest version
+````bash
+degit u-barnwal/ComingSoonPage-html
+````
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies
+````bash
+yarn install
+````
 
-```bash
-npm run dev
-# or
+Run the development build
+````bash
 yarn dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Run the production build
+````bash
+yarn build
+yarn start
+````
 
 ## Deploy on Vercel
 
