@@ -1,5 +1,5 @@
 # NextJS with Tailwind in TypeScript
-A starter template for NextJS with Tailwind in TypeScript
+A starter template for NextJS with Tailwind in TypeScript with a [modular project structure](#project-structure)
 
 - Learn [NextJS](https://nextjs.org) v12
 - Learn [Tailwind](https://tailwindcss.com) v3
@@ -42,6 +42,28 @@ To fork, use the button above or follow these steps:
 - Click on **Import and Fork**
 - ✅
 
+## Project Structure
+```
+project
+|-- public                    ℹ️ keep your static resource files
+|-- src
+|   |-- common
+|   |   |-- components
+|   |   |   |-- elements      ℹ️ keep your state-less components
+|   |   |   |                 ℹ️ keep your state-full components
+|   |   |-- hoc
+|   |   |-- hooks
+|   |   |-- layouts
+|   |   |-- types
+|   |-- modules
+|   |-- pages
+|   |   |-- api               ℹ️ keep your pages here
+|   |-- services
+|   |-- styles
+|   |-- utils
+|   |   |-- constants     ℹ️ keep your constants
+|   |   |                 ℹ️ keep your util functions
+```
 ## Getting Started
 
 Install dependencies
