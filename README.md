@@ -7,6 +7,8 @@ A starter template for NextJS with Tailwind in TypeScript
 
 [<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/u-barnwal/starter-nextjs-tailwind-ts)
 
+**Want a modular Project Structure?** Check [modular-folder-structure](https://github.com/u-barnwal/starter-nextjs-tailwind-ts/tree/modular-folder-structure) branch
+
 ---
 
 ## How to Reuse Locally?
@@ -24,7 +26,7 @@ npm install -g degit
 
 Download the latest version
 ````bash
-degit u-barnwal/ComingSoonPage-html
+degit u-barnwal/starter-nextjs-tailwind-ts
 ````
 
 ## How to Reuse on [CodeSandbox](https://codesandbox.io)?
