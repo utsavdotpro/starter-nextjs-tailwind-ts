@@ -24,7 +24,7 @@ npm install -g degit
 
 Download the latest version
 ````bash
-degit u-barnwal/ComingSoonPage-html
+degit u-barnwal/starter-nextjs-tailwind-ts#modular-folder-structure
 ````
 
 ## How to Reuse on [CodeSandbox](https://codesandbox.io)?
