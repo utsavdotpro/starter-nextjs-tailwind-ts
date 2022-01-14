@@ -1,9 +1,9 @@
 # NextJS with Tailwind in TypeScript
 A starter template for NextJS with Tailwind in TypeScript
 
-- Learn [NextJS](https://nextjs.org)
-- Learn [Tailwind](https://tailwindcss.com)
-- Learn [TypeScript](https://typescriptlang.org)
+- Learn [NextJS](https://nextjs.org) v12
+- Learn [Tailwind](https://tailwindcss.com) v3
+- Learn [TypeScript](https://typescriptlang.org) v4
 
 [<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/u-barnwal/starter-nextjs-tailwind-ts)
 
