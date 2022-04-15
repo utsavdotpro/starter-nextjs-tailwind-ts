@@ -5,7 +5,7 @@ A starter template for NextJS with Tailwind in TypeScript with a [modular projec
 - Learn [Tailwind](https://tailwindcss.com) v3
 - Learn [TypeScript](https://typescriptlang.org) v4
 
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/u-barnwal/starter-nextjs-tailwind-ts/tree/modular-folder-structure)
+[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts/tree/modular-folder-structure)
 
 ---
 
@@ -24,13 +24,13 @@ npm install -g degit
 
 Download the latest version
 ````bash
-degit u-barnwal/starter-nextjs-tailwind-ts#modular-folder-structure
+degit utsavdotpro/starter-nextjs-tailwind-ts#modular-folder-structure
 ````
 
 ## How to Reuse on [CodeSandbox](https://codesandbox.io)?
 > CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster.
 
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/u-barnwal/starter-nextjs-tailwind-ts/tree/modular-folder-structure)
+[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts/tree/modular-folder-structure)
 
 To fork, use the button above or follow these steps:
 
@@ -61,8 +61,8 @@ project
 |   |-- services
 |   |-- styles
 |   |-- utils
-|   |   |-- constants     ℹ️ keep your constants
-|   |   |                 ℹ️ keep your util functions
+|   |   |-- constants         ℹ️ keep your constants
+|   |   |                     ℹ️ keep your util functions
 ```
 ## Getting Started
 
