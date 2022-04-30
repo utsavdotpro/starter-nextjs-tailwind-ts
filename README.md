@@ -5,9 +5,9 @@ A starter template for NextJS with Tailwind in TypeScript
 - Learn [Tailwind](https://tailwindcss.com) v3
 - Learn [TypeScript](https://typescriptlang.org) v4
 
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/u-barnwal/starter-nextjs-tailwind-ts)
+[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts)
 
-**Want a modular Project Structure?** Check [modular-folder-structure](https://github.com/u-barnwal/starter-nextjs-tailwind-ts/tree/modular-folder-structure) branch
+**Want a modular Project Structure?** Check [modular-folder-structure](https://github.com/utsavdotpro/starter-nextjs-tailwind-ts/tree/modular-folder-structure) branch
 
 ---
 
@@ -26,13 +26,13 @@ npm install -g degit
 
 Download the latest version
 ````bash
-degit u-barnwal/starter-nextjs-tailwind-ts
+degit utsavdotpro/starter-nextjs-tailwind-ts
 ````
 
 ## How to Reuse on [CodeSandbox](https://codesandbox.io)?
 > CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster.
 
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/u-barnwal/starter-nextjs-tailwind-ts)
+[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts)
 
 To fork, use the button above or follow these steps:
 
@@ -40,7 +40,7 @@ To fork, use the button above or follow these steps:
 - Click on **Start coding for free**
   - If logged in, click on **New Sandbox**
 - Click on **Import Project**
-- Enter https://github.com/u-barnwal/starter-nextjs-tailwind-ts as **GitHub Repository URL**
+- Enter https://github.com/utsavdotpro/starter-nextjs-tailwind-ts as **GitHub Repository URL**
 - Click on **Import and Fork**
 - ✅
 
