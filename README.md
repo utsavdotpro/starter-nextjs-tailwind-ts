@@ -51,10 +51,13 @@ project
 |   |   |-- components
 |   |   |   |-- elements      ℹ️ keep your state-less components
 |   |   |   |                 ℹ️ keep your state-full components
+|   |   |-- config            ℹ️ keep your configuration files
 |   |   |-- hoc
 |   |   |-- hooks
 |   |   |-- layouts
+|   |   |-- sections          ℹ️ keep your common sections
 |   |   |-- types
+|   |-- lib
 |   |-- modules
 |   |-- pages
 |   |   |-- api               ℹ️ keep your pages here
