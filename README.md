@@ -1,13 +1,13 @@
+[<img src="https://ik.imagekit.io/iutsav/fork_l0RKONb5l.svg" height="30" />](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts)
+
 # NextJS with Tailwind in TypeScript
-A starter template for NextJS with Tailwind in TypeScript
+A starter template for NextJS with Tailwind in TypeScript with a opinionated [modular project structure](#project-structure).
 
-- Learn [NextJS](https://nextjs.org) v12
-- Learn [Tailwind](https://tailwindcss.com) v3
-- Learn [TypeScript](https://typescriptlang.org) v4
+### Technologies
 
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts)
-
-**Want a modular Project Structure?** Check [modular-folder-structure](https://github.com/utsavdotpro/starter-nextjs-tailwind-ts/tree/modular-folder-structure) branch
+- [NextJS](https://nextjs.org) v12
+- [Tailwind](https://tailwindcss.com) v3
+- [TypeScript](https://typescriptlang.org) v4
 
 ---
 
@@ -29,20 +29,7 @@ Download the latest version
 degit utsavdotpro/starter-nextjs-tailwind-ts
 ````
 
-## How to Reuse on [CodeSandbox](https://codesandbox.io)?
-> CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster.
-
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts)
-
-To fork, use the button above or follow these steps:
-
-- Go to [codesandbox.io](https://codesandbox.io)
-- Click on **Start coding for free**
-  - If logged in, click on **New Sandbox**
-- Click on **Import Project**
-- Enter https://github.com/utsavdotpro/starter-nextjs-tailwind-ts as **GitHub Repository URL**
-- Click on **Import and Fork**
-- ✅
+---
 
 ## Getting Started
 
@@ -62,8 +49,34 @@ yarn build
 yarn start
 ````
 
-## Deploy on Vercel
+## Project Structure
+```
+project
+|-- public                    ℹ️ keep your static resource files
+|-- src
+|   |-- common
+|   |   |-- components
+|   |   |   |-- elements      ℹ️ keep your state-less components
+|   |   |   |                 ℹ️ keep your state-full components
+|   |   |-- config            ℹ️ keep your configuration files
+|   |   |-- hoc
+|   |   |-- hooks
+|   |   |-- layouts
+|   |   |-- sections          ℹ️ keep your common sections
+|   |   |-- types
+|   |-- lib
+|   |-- modules
+|   |-- pages
+|   |   |-- api               ℹ️ keep your pages here
+|   |-- services
+|   |-- styles
+|   |-- utils
+|   |   |-- constants         ℹ️ keep your constants
+|   |   |                     ℹ️ keep your util functions
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The easiest way to deploy your Next.js app is to use the [Vercel](https://vercel.com/) platform from the creators of Next.js.
+
+Check out the Next.js deployment [docs](https://nextjs.org/docs/deployment) for more details.
