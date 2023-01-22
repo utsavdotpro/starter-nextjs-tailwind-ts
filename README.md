@@ -1,7 +1,7 @@
 [<img src="https://ik.imagekit.io/iutsav/fork_l0RKONb5l.svg" height="30" />](https://githubbox.com/utsavdotpro/starter-nextjs-tailwind-ts)
 
 # NextJS with Tailwind in TypeScript
-A starter template for NextJS with Tailwind in TypeScript with a opinionated [modular project structure](#project-structure).
+A starter template for NextJS with Tailwind in TypeScript with an opinionated [modular project structure](#project-structure).
 
 ### Technologies
 
