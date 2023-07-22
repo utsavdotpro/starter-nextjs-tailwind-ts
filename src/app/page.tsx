@@ -1,6 +1,4 @@
-import type { NextPage } from "next";
-
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <main className="p-8">
       Hello from <a href="https://nextjs.org/">NextJS</a> with{" "}
