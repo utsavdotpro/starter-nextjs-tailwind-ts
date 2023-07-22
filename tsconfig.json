@@ -8,9 +8,6 @@
       "@components/*": [
         "common/components/*"
       ],
-      "@config/*": [
-        "common/config/*"
-      ],
       "@hoc/*": [
         "common/hoc/*"
       ],
@@ -20,11 +17,20 @@
       "@layouts/*": [
         "common/layouts/*"
       ],
-      "@sections/*": [
-        "common/sections/*"
+      "@config/*": [
+        "core/config/*"
+      ],
+      "@constants/*": [
+        "core/constants/*"
+      ],
+      "@services/*": [
+        "core/services/*"
       ],
       "@appTypes/*": [
-        "common/types/*"
+        "core/types/*"
+      ],
+      "@utils/*": [
+        "core/utils/*"
       ],
       "@lib/*": [
         "lib/*"
@@ -35,21 +41,16 @@
       "@pages/*": [
         "pages/*"
       ],
-      "@services/*": [
-        "services/*"
-      ],
       "@styles/*": [
         "styles/*"
       ],
-      "@constants/*": [
-        "utils/constants/*"
-      ],
-      "@utils/*": [
-        "utils/*"
-      ],
     },
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -61,8 +62,20 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
