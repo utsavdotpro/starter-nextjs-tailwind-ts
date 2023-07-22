@@ -3,11 +3,13 @@
 # NextJS with Tailwind in TypeScript
 A starter template for NextJS with Tailwind in TypeScript with an opinionated [modular project structure](#project-structure).
 
-### Technologies
+> Uses NextJS's latest [`app` directory](https://nextjs.org/docs/app/building-your-application/routing)
 
-- [NextJS](https://nextjs.org) v12
-- [Tailwind](https://tailwindcss.com) v3
-- [TypeScript](https://typescriptlang.org) v4
+### Technologies
+[![](https://img.shields.io/badge/Next.JS-v13-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
+[![](https://img.shields.io/badge/Tailwind-v3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
+[![](https://img.shields.io/badge/React-v18-149eca?style=for-the-badge&logo=react)](https://react.dev/)
+[![](https://img.shields.io/badge/TypeScript-v5-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
 
 ---
 
@@ -15,7 +17,7 @@ A starter template for NextJS with Tailwind in TypeScript with an opinionated [m
 
 Use `degit` to download the repository locally.
 
-> ### ❓ What is [degit](https://github.com/Rich-Harris/degit)?
+> **❓ What is [degit](https://github.com/Rich-Harris/degit)?**  
 > degit downloads a copy of git repository with downloading its entire git history.
 
 Install degit globally.
@@ -54,25 +56,24 @@ yarn start
 project
 |-- public                    ℹ️ keep your static resource files
 |-- src
+|   |-- app                   ℹ️ NextJS app directory
+|   |   |-- api               ℹ️ NextJS api directory
 |   |-- common
 |   |   |-- components
 |   |   |   |-- elements      ℹ️ keep your state-less components
 |   |   |   |                 ℹ️ keep your state-full components
-|   |   |-- config            ℹ️ keep your configuration files
 |   |   |-- hoc
 |   |   |-- hooks
 |   |   |-- layouts
-|   |   |-- sections          ℹ️ keep your common sections
+|   |-- core
+|   |   |-- config            ℹ️ keep your configuration files
+|   |   |-- constants
+|   |   |-- services
 |   |   |-- types
+|   |   |-- utils
 |   |-- lib
 |   |-- modules
-|   |-- pages
-|   |   |-- api               ℹ️ keep your pages here
-|   |-- services
 |   |-- styles
-|   |-- utils
-|   |   |-- constants         ℹ️ keep your constants
-|   |   |                     ℹ️ keep your util functions
 ```
 
 ## Deployment
